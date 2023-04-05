@@ -1,0 +1,47 @@
+ul {
+  list-style-type: none;
+}
+
+.user-row {
+  margin: 20px auto;
+  background-color: rgb(255, 254, 234);
+  padding: 10px;
+  text-align: center;
+  width: 400px;
+}
+
+.user-row:hover {
+  background-color: rgb(255, 251, 175);
+}
+
+.user-name {
+  width: 150px;
+  display: inline-block;
+}
+
+.user-city {
+  width: 150px;
+  display: inline-block;
+}
+
+.button-row {
+  margin: 20px auto;
+  padding: 10px;
+  text-align: center;
+  width: 400px;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  background-color: #c0c0c0;  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+background-color: #a3a1a1;}
